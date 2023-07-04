@@ -1,0 +1,21 @@
+Como executar o código:
+
+Para comprimir e descomprimir um arquivo de texto use o arquivo lz78.py:
+
+1. Altere na linha 56 o primeiro parâmetro da função encodeLZ(), 
+    coloque o path para o arquivo que deseja comprimir. Se o arquivo estiver na mesma pasta que o código
+    basta colocar o nome do arquivo.
+2. No terminal, navegue até o diretório em que está o arquivo lz78.py
+3. Execute o comando: python3 lz78.py
+
+Com isso as funções de encode e decode serão executadas
+  e então serão gerados os arquivos encoded.txt e decoded.txt com os resultados
+  e os tempos de execução serão printados no terminal
+
+Para comprimir e descomprimir um arquivo de imagem use o arquivo lz78_image.py:
+
+1. Altere na linha 58 o primeiro parâmetro da função encodeLZ78(), 
+    coloque o path para o arquivo que deseja comprimir. Se o arquivo estiver na mesma pasta que o código
+    basta colocar o nome do arquivo.
+2. No terminal, navegue até o diretório em que está o arquivo lz78_image.py
+3. Execute o comando: python3 lz78_image.py
